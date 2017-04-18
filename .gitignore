@@ -1,0 +1,6 @@
+admin/
+backups/
+data/
+plugins/
+.htaccess
+gsconfig.php
