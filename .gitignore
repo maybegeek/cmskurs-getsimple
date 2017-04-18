@@ -3,4 +3,10 @@ backups/
 data/
 plugins/
 .htaccess
-gsconfig.php
+/index.php
+/gsconfig.php
+/LICENSE.txt
+/readme.txt
+/robots.txt
+/temp.gsconfig.php
+/temp.htaccess
