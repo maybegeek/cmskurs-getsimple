@@ -1,9 +1,9 @@
 <?php if(!defined('IN_GS')){ die('you cannot load this page directly.'); }
 /****************************************************
 *
-* @File:     template.php
+* @File:     ohne-sidebar.php
 * @Package:  GetSimple
-* @Action:   UnserTheme ist ein Beispiel-Theme für GetSimple
+* @Action:   UnserTheme: Template ohne sidebar/component, volle Breite
 *
 *****************************************************/
 ?><!DOCTYPE html>
@@ -31,14 +31,11 @@
   </nav>
 
   <main class="row">
-    <div class="page-content c8">
+    <div class="page-content c12">
       <h2><?php get_page_title(); ?></h2>
       <?php get_page_content(); ?>
       <p class="page-meta"><time datetime="<?php get_page_date('c'); ?>"><?php get_page_date('j. F Y'); ?></time></p>
     </div>
-    <aside class="c4">
-      <?php get_component('sidebar');  ?>
-    </aside>
   </main>
 
   <?php get_footer(); ?>
