@@ -2,6 +2,8 @@ admin/
 backups/
 data/
 plugins/
+theme/Cardinal/
+theme/Innovation/
 .htaccess
 /index.php
 /gsconfig.php
